@@ -70,7 +70,7 @@ typedef struct {
 
 typedef bigint_t* bigintptr_t;
 
-/* Convert big integers from string decimal representation into a bitset */
+/* Convert big integers from string hexadecimal representation into a bitset */
 void str_to_bits(char *orig, bigintptr_t dest)
 {
     uint8_t digit;
